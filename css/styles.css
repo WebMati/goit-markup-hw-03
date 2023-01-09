@@ -1,0 +1,365 @@
+:root {
+    --brand-color: #212121;
+    --item-color: #2196f3;
+    --link-color: #757575;
+    --second-background: #f5f4fa;
+    --third-background: #2f303a;
+}
+
+body {
+    font-size: 14px;
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: center;
+    flex-grow: 3;
+}
+
+.menu .menu-item,
+.contact-header .menu-item {
+    padding: 0px 23px;
+    display: block;
+}
+
+.contact-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+}
+
+.menu-item {
+    padding-right: 32px;
+}
+
+.menu {
+    list-style: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.menu.liitem:not(:last-child) {
+    margin-right: 10px;
+
+}
+
+.header-boxin .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-boxin {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #ECECEC;
+}
+
+main {
+    flex-grow: 3;
+}
+
+.main-box {
+    bottom: 94px;
+    top: 94px;
+}
+
+.main-box ul {
+    padding-top: 94px;
+    list-style-type: none;
+    width: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.lorem ul {
+    list-style: none;
+}
+
+.lorem h2 {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color:#212121;
+}
+
+.lorem p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+    color: #757575;
+}
+
+.wwd {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    bottom: 94px;
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+}
+
+.wwdp {
+    align-content: space-between 30px;
+    height: 386px;
+}
+
+.wwdp ul {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-background {
+    background: #F5F4FA;
+}
+
+.team {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    position: center;
+    height: 42px;    
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+}
+
+
+.team li {
+    width: 270px;
+}
+
+.teamp li figure {
+    padding: 0;
+    margin: 0;
+}
+
+
+.teamp ul {
+    justify-content: space-between;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    padding-bottom: 90px;
+}
+
+.boxunderphoto{
+    text-align: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    flex-direction: row;
+    display: flex;
+}
+
+a:link {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #2196F3;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: #2196F3;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:hover {
+    color: #2196F3;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.footer-boxpf {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        height: 252px;
+        background-color: #2f303a;
+        line-height: 24px;
+        padding-top: 60px;
+        padding-left: 215px;
+}
+
+.footer-box {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    height: 252px;
+    background-color: #2f303a;
+    line-height: 24px;
+    padding-top: 60px;
+    padding-left: 215px;
+}
+
+.effect {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    align-items: center;
+    top: 80px;
+    left: 0px;
+    background-color: var(--third-background);
+    color: #ffffff;
+}
+
+button {
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+header .logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-right: 93px;    
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--item-color);
+}
+
+.logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-right: 93px;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--item-color);
+}
+.logo-color {
+    color: var(--brand-color);
+}
+
+.footer-box .logo-color {
+    color: #FFFFFF;
+}
+
+.footer-boxpf .logo-color {
+    color: #FFFFFF;
+}
+
+a.menu-item, .logo {
+    color: #757575;
+}
+
+a.menu-item:focus,
+a.menu-item:hover {
+    background-color: none;
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+
+.portfolio-item .container {
+    align-items: baseline;
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.portfolio-item figure {
+    display: contents;
+    padding-bottom: 30px;
+}
+
+.portfolio-title {
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+}
+
+
+.pi li {
+    list-style-type: none;
+}
+
+.pi ul {
+    align-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.filters {
+    padding-top: 100px;
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.filter-single {
+    background-color: var(--second-background);
+    border: none;
+    width: auto;
+    color: black;
+    padding: 6px 22px;
+    text-align: center;
+    text-decoration: var(--text-decoration);
+    display: block;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.portfolio-item figure {
+    width: 270px;
+    text-align: left;
+    line-height: 19px;
+}
+
+.filter-single:focus,
+.filter-single:hover {
+    text-decoration: underline #2196F3;
+    color: #ffffff;
+    background-color: #2196f3;
+    border-radius: 6px;
+}
