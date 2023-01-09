@@ -161,14 +161,38 @@ main {
     padding-bottom: 90px;
 }
 
+.boxunderphoto figcaption {
+    padding-top: 30px;
+}
+
+
 .boxunderphoto{
     text-align: center;
-    justify-content: center;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     flex-direction: row;
     display: flex;
+    padding-bottom: 30px;
+}
+
+h3 span {
+    padding: 30px;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+h3 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
 
 a:link {
@@ -205,6 +229,7 @@ a:hover {
         line-height: 24px;
         padding-top: 60px;
         padding-left: 215px;
+        margin-top: 94px;
 }
 
 .footer-box {
@@ -292,6 +317,11 @@ a.menu-item:hover {
     text-decoration: underline;
 }
 
+.portfolio-item {
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    padding-bottom: 30px;
+}
 
 .portfolio-item .container {
     align-items: baseline;
@@ -302,6 +332,9 @@ a.menu-item:hover {
 }
 
 .portfolio-item figure {
+    width: 270px;
+    text-align: left;
+    line-height: 19px;
     display: contents;
     padding-bottom: 30px;
 }
@@ -317,6 +350,7 @@ a.menu-item:hover {
 
 
 .pi li {
+    margin-top: 30px;
     list-style-type: none;
 }
 
@@ -348,12 +382,6 @@ a.menu-item:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-.portfolio-item figure {
-    width: 270px;
-    text-align: left;
-    line-height: 19px;
 }
 
 .filter-single:focus,
