@@ -226,7 +226,6 @@ a:hover {
         color: #FFFFFF;
         height: 252px;
         background-color: #2f303a;
-        line-height: 24px;
         padding-top: 60px;
         padding-left: 215px;
         margin-top: 94px;
@@ -242,7 +241,6 @@ a:hover {
     color: #FFFFFF;
     height: 252px;
     background-color: #2f303a;
-    line-height: 24px;
     padding-top: 60px;
     padding-left: 215px;
 }
@@ -340,12 +338,23 @@ a.menu-item:hover {
 }
 
 .portfolio-title {
+    padding: 0 24px;
     display: flex;
     justify-content: left;
     font-size: 18px;
     font-weight: 700;
     line-height: 200%;
     letter-spacing: 0.06em;
+}
+
+.portfolio-item span {
+    padding: 0 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 
