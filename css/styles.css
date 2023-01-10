@@ -330,7 +330,6 @@ a.menu-item:hover {
 }
 
 .portfolio-item figure {
-    width: 270px;
     text-align: left;
     line-height: 19px;
     display: contents;
@@ -343,7 +342,7 @@ a.menu-item:hover {
     justify-content: left;
     font-size: 18px;
     font-weight: 700;
-    line-height: 200%;
+    line-height: 18px;
     letter-spacing: 0.06em;
 }
 
@@ -352,7 +351,7 @@ a.menu-item:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 15px;
     letter-spacing: 0.03em;
     color: #757575;
 }
